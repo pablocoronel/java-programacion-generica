@@ -5,3 +5,6 @@ Package arraylist:
 162: Programación genérica. ArrayList II => Uso_Empleado.java
 163: Programación genérica. ArrayList III Iteradores => Uso_Empleado.java
 164: Programación genérica. Qué es Por qué utilizarla => ArrayList.java, Uso_ArrayList.java
+
+Package clases_propias
+165: Programación genérica. Creación clases genéricas propias => Pareja.java, Uso_Pareja.java
