@@ -1,6 +1,7 @@
 package arraylist;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class Uso_Empleado {
 
@@ -45,6 +46,17 @@ public class Uso_Empleado {
 
 		System.out.println("");
 		System.out.println("En posicion 2: " + listaEmpleados.get(2).dameDatos());
+
+		System.out.println();
+		System.out.println("Con iterador");
+
+		// con iterador
+		Iterator<Empleado> mi_iterador = listaEmpleados.iterator();
+
+		// mientras haya otro elemento
+		while (mi_iterador.hasNext()) {
+			System.out.println(mi_iterador.next().dameDatos());
+		}
 	}
 
 }
