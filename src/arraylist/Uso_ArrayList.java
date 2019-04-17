@@ -2,6 +2,7 @@ package arraylist;
 
 import java.io.File;
 
+//clase para mostrar la programacion sin ser generica
 public class Uso_ArrayList {
 
 	public static void main(String[] args) {
