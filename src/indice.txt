@@ -9,3 +9,4 @@ Package arraylist:
 Package clases_propias
 165: Programación genérica. Creación clases genéricas propias => Pareja.java, Uso_Pareja.java
 166: Programación genérica. Métodos genéricos => Metodos_Genericos.java, Empleado.java
+167: Programación genérica. Herencia y tipos comodín => Herencia_Genericos.java, Pareja.java, Empleado.java, Jefe.java

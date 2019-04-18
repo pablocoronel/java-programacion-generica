@@ -20,4 +20,10 @@ public class Pareja<T> {
 	public T getPrimero() {
 		return this.primero;
 	}
+
+	/// metodo que recibe como parametro un tipo generico
+	public static void imprimirTrabajador(Pareja<? extends Empleado> p) {
+		Empleado primero = p.getPrimero();
+		System.out.println(primero);
+	}
 }
